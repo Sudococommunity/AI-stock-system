@@ -1,0 +1,131 @@
+{
+  "5PAISA-RE": {
+    "status": "failed",
+    "error": "No historical rows returned"
+  },
+  "AARNAV": {
+    "status": "skipped",
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_AARNAV.csv"
+  },
+  "AEPL": {
+    "status": "skipped",
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_AEPL.csv"
+  },
+  "AYE": {
+    "status": "downloaded",
+    "rows": 28,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_AYE.csv"
+  },
+  "BCPL": {
+    "status": "downloaded",
+    "rows": 1,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_BCPL.csv"
+  },
+  "BONLON": {
+    "status": "failed",
+    "error": "No historical rows returned"
+  },
+  "CEINSYS": {
+    "status": "downloaded",
+    "rows": 25,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_CEINSYS.csv"
+  },
+  "CLEANMAX": {
+    "status": "downloaded",
+    "rows": 18,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_CLEANMAX.csv"
+  },
+  "DCMSIL": {
+    "status": "downloaded",
+    "rows": 12,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_DCMSIL.csv"
+  },
+  "DSFCL": {
+    "status": "downloaded",
+    "rows": 17,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_DSFCL.csv"
+  },
+  "FRACTAL": {
+    "status": "downloaded",
+    "rows": 28,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_FRACTAL.csv"
+  },
+  "GAUDIUMIVF": {
+    "status": "downloaded",
+    "rows": 9,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_GAUDIUMIVF.csv"
+  },
+  "GSPCROP": {
+    "status": "downloaded",
+    "rows": 3,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_GSPCROP.csv"
+  },
+  "INA": {
+    "status": "downloaded",
+    "rows": 14,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_INA.csv"
+  },
+  "INNOVISION": {
+    "status": "downloaded",
+    "rows": 4,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_INNOVISION.csv"
+  },
+  "KWIL": {
+    "status": "downloaded",
+    "rows": 18,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_KWIL.csv"
+  },
+  "LTM": {
+    "status": "downloaded",
+    "rows": 2400,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_LTM.csv"
+  },
+  "MARSONS": {
+    "status": "downloaded",
+    "rows": 10,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_MARSONS.csv"
+  },
+  "OMNI": {
+    "status": "downloaded",
+    "rows": 16,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_OMNI.csv"
+  },
+  "PNGSREVA": {
+    "status": "downloaded",
+    "rows": 17,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_PNGSREVA.csv"
+  },
+  "PRABHA-RE": {
+    "status": "failed",
+    "error": "No historical rows returned"
+  },
+  "RSL": {
+    "status": "downloaded",
+    "rows": 6,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_RSL.csv"
+  },
+  "SEDEMAC": {
+    "status": "downloaded",
+    "rows": 12,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_SEDEMAC.csv"
+  },
+  "SINGERIND": {
+    "status": "downloaded",
+    "rows": 6,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_SINGERIND.csv"
+  },
+  "SRTL": {
+    "status": "downloaded",
+    "rows": 8,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_SRTL.csv"
+  },
+  "TCC": {
+    "status": "downloaded",
+    "rows": 21,
+    "path": "D:\\AI\\hackathon\\india_universe_data\\NSE_TCC.csv"
+  },
+  "TIL-RE1": {
+    "status": "failed",
+    "error": "No historical rows returned"
+  }
+}

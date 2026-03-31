@@ -1,0 +1,14 @@
+{
+  "username": "alex_trader",
+  "display_name": "Alex",
+  "persona": "Aggressive Growth & Tech Investor",
+  "risk_tolerance": "aggressive",
+  "capital_range": "medium",
+  "investment_horizon": "short",
+  "preferred_sectors": ["Technology", "Communication Services", "Consumer Discretionary"],
+  "bio": "Day trader chasing high-growth tech. Loves momentum plays and AI/semiconductor stocks. Not afraid of 50% drawdowns if the upside is 10x.",
+  "favorite_stocks": ["NVDA", "TSLA", "AMD", "META", "AAPL", "GOOGL"],
+  "dislike_stocks": ["JNJ", "WMT", "PG", "KO", "VZ"],
+  "typical_hold_days": 5,
+  "max_position_pct": 25
+}

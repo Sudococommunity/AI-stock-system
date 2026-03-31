@@ -1,0 +1,22 @@
+{
+  "leaderboard": [
+    {
+      "checkpoint_path": "checkpoints/transformer_v1774683031_0.pt",
+      "reward_score": 0.44243498886087207,
+      "direction_accuracy": 0.49098774333093004,
+      "mean_abs_error": 0.2308409659373916,
+      "grade": "C",
+      "sample_count": 4161
+    }
+  ],
+  "survivors": [
+    {
+      "checkpoint_path": "checkpoints/transformer_v1774683031_0.pt",
+      "reward_score": 0.44243498886087207,
+      "direction_accuracy": 0.49098774333093004,
+      "mean_abs_error": 0.2308409659373916,
+      "grade": "C",
+      "sample_count": 4161
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "leaderboard": [
+    {
+      "name": "candidate_01",
+      "checkpoint_path": "checkpoints/india_local\\transformer_v1774634103_0.pt",
+      "seed": 1000,
+      "learning_rate_multiplier": 0.75,
+      "epochs": 1,
+      "reward_score": 0.3584407131149259,
+      "direction_accuracy": 0.4,
+      "mean_abs_error": 0.07631126076251253,
+      "grade": "D",
+      "sample_count": 10
+    }
+  ],
+  "survivors": [
+    {
+      "name": "candidate_01",
+      "checkpoint_path": "checkpoints/india_local\\transformer_v1774634103_0.pt",
+      "seed": 1000,
+      "learning_rate_multiplier": 0.75,
+      "epochs": 1,
+      "reward_score": 0.3584407131149259,
+      "direction_accuracy": 0.4,
+      "mean_abs_error": 0.07631126076251253,
+      "grade": "D",
+      "sample_count": 10
+    }
+  ]
+}

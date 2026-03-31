@@ -1,0 +1,102 @@
+{
+  "summary": {
+    "direction_accuracy": 0.4,
+    "mean_abs_error": 0.07631126076251253,
+    "mean_confidence": 0.6256132364273072,
+    "reward_score": 0.3584407131149259,
+    "grade": "D",
+    "sample_count": 10
+  },
+  "records": [
+    {
+      "stock_id": 1,
+      "ticker": "NSE:20MICRONS",
+      "cutoff_date": "2009-10-30",
+      "target_date": "2009-11-06",
+      "predicted_return": 0.04765313118696213,
+      "actual_return": -0.033462015138211655,
+      "p_up": 0.2504996657371521
+    },
+    {
+      "stock_id": 2,
+      "ticker": "NSE:21STCENMGM",
+      "cutoff_date": "2019-01-29",
+      "target_date": "2019-02-04",
+      "predicted_return": 0.04536052793264389,
+      "actual_return": -0.06040270060080201,
+      "p_up": 0.08138805627822876
+    },
+    {
+      "stock_id": 3,
+      "ticker": "NSE:360ONE",
+      "cutoff_date": "2020-10-05",
+      "target_date": "2020-10-09",
+      "predicted_return": -0.009113484062254429,
+      "actual_return": -0.03589209085678176,
+      "p_up": 0.23272395133972168
+    },
+    {
+      "stock_id": 4,
+      "ticker": "NSE:3IINFOLTD",
+      "cutoff_date": "2007-01-04",
+      "target_date": "2007-01-10",
+      "predicted_return": -0.037245072424411774,
+      "actual_return": 0.004524079951107446,
+      "p_up": 0.1146531030535698
+    },
+    {
+      "stock_id": 5,
+      "ticker": "NSE:3MINDIA",
+      "cutoff_date": "2007-01-04",
+      "target_date": "2007-01-10",
+      "predicted_return": 0.037561219185590744,
+      "actual_return": -0.005598404153148566,
+      "p_up": 0.24012190103530884
+    },
+    {
+      "stock_id": 6,
+      "ticker": "NSE:3PLAND",
+      "cutoff_date": "2009-04-08",
+      "target_date": "2009-04-16",
+      "predicted_return": 0.014715302735567093,
+      "actual_return": 0.10666669209798177,
+      "p_up": 0.29745689034461975
+    },
+    {
+      "stock_id": 7,
+      "ticker": "NSE:5PAISA",
+      "cutoff_date": "2018-12-04",
+      "target_date": "2018-12-10",
+      "predicted_return": -0.0200393907725811,
+      "actual_return": -0.02786459100641435,
+      "p_up": 0.110866479575634
+    },
+    {
+      "stock_id": 8,
+      "ticker": "NSE:63MOONS",
+      "cutoff_date": "2007-01-05",
+      "target_date": "2007-01-11",
+      "predicted_return": -0.008873633109033108,
+      "actual_return": 0.004734765944779875,
+      "p_up": 0.24103398621082306
+    },
+    {
+      "stock_id": 9,
+      "ticker": "NSE:A2ZINFRA",
+      "cutoff_date": "2012-01-09",
+      "target_date": "2012-01-13",
+      "predicted_return": 0.009058745577931404,
+      "actual_return": 0.18659214467309723,
+      "p_up": 0.08619533479213715
+    },
+    {
+      "stock_id": 10,
+      "ticker": "NSE:AAATECH",
+      "cutoff_date": "2021-11-30",
+      "target_date": "2021-12-06",
+      "predicted_return": -0.09027516096830368,
+      "actual_return": 0.08333330154418946,
+      "p_up": 0.21699444949626923
+    }
+  ]
+}

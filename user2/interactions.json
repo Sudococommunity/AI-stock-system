@@ -1,0 +1,40 @@
+[
+  {"stock": "JNJ",  "action": "view_long",     "duration_sec": 400, "note": "Medtech division spin-off analysis, dividend history"},
+  {"stock": "JNJ",  "action": "watchlist_add",                       "note": "Core healthcare holding"},
+  {"stock": "JNJ",  "action": "trade_buy",     "quantity": 25,       "note": "Initiating long-term position"},
+  {"stock": "JNJ",  "action": "rate",          "rating": 0.90,       "note": "60+ years of dividend growth, fortress balance sheet"},
+
+  {"stock": "KO",   "action": "view_long",     "duration_sec": 350, "note": "Berkshire-quality brand moat, pricing power"},
+  {"stock": "KO",   "action": "watchlist_add",                       "note": "Classic defensive, buy the dip"},
+  {"stock": "KO",   "action": "trade_buy",     "quantity": 50,       "note": "3.1% yield, adding to income portfolio"},
+  {"stock": "KO",   "action": "rate",          "rating": 0.88,       "note": "Exactly what I want in a volatile market"},
+
+  {"stock": "WMT",  "action": "view_long",     "duration_sec": 280, "note": "Defensive retail, recession-proof"},
+  {"stock": "WMT",  "action": "watchlist_add",                       "note": "Inflation hedge, essential spending"},
+  {"stock": "WMT",  "action": "rate",          "rating": 0.82,       "note": "Consistent earnings even in downturns"},
+
+  {"stock": "PG",   "action": "view_long",     "duration_sec": 260, "note": "Consumer staples king, pricing power analysis"},
+  {"stock": "PG",   "action": "trade_buy",     "quantity": 20,       "note": "Dividend aristocrat, 65+ year raise streak"},
+  {"stock": "PG",   "action": "rate",          "rating": 0.85,       "note": "Perfect for preservation strategy"},
+
+  {"stock": "JPM",  "action": "view_long",     "duration_sec": 220, "note": "Best-in-class bank, Jamie Dimon management"},
+  {"stock": "JPM",  "action": "watchlist_add",                       "note": "Financial sector quality play"},
+  {"stock": "JPM",  "action": "rate",          "rating": 0.75,       "note": "Rate environment favorable"},
+
+  {"stock": "VZ",   "action": "view_long",     "duration_sec": 180, "note": "6.5% dividend yield, stable cash flows"},
+  {"stock": "VZ",   "action": "watchlist_add",                       "note": "Income play, telecom moat"},
+  {"stock": "VZ",   "action": "rate",          "rating": 0.70,       "note": "High yield justified by predictable cash flow"},
+
+  {"stock": "XOM",  "action": "view_long",     "duration_sec": 160, "note": "Energy dividend, integrated model"},
+  {"stock": "XOM",  "action": "rate",          "rating": 0.65,       "note": "Cash flow solid, some commodity risk"},
+
+  {"stock": "NVDA", "action": "view_short",    "duration_sec": 10,  "note": "P/E of 70x?? Hard pass"},
+  {"stock": "TSLA", "action": "view_short",    "duration_sec": 8,   "note": "Too speculative, can't value this"},
+  {"stock": "AMD",  "action": "view_short",    "duration_sec": 7,   "note": "Semiconductors too cyclical for me"},
+  {"stock": "META", "action": "view_short",    "duration_sec": 9,   "note": "Regulatory risk, not for me"},
+  {"stock": "NFLX", "action": "view_short",    "duration_sec": 6,   "note": "No dividend, pure growth — skip"},
+
+  {"stock": "JNJ",  "action": "view_long",     "duration_sec": 200, "note": "Re-reviewing after Kenvue spin-off"},
+  {"stock": "KO",   "action": "view_long",     "duration_sec": 180, "note": "Quarterly earnings review"},
+  {"stock": "WMT",  "action": "view_long",     "duration_sec": 150, "note": "Holiday season sales data"}
+]

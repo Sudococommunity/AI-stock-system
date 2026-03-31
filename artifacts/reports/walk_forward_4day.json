@@ -1,0 +1,57 @@
+{
+  "summary": {
+    "direction_accuracy": 0.2,
+    "mean_abs_error": 0.32191110956223673,
+    "mean_confidence": 0.34878493547439576,
+    "reward_score": 0.2763352573509641,
+    "grade": "D",
+    "sample_count": 5
+  },
+  "records": [
+    {
+      "stock_id": 1,
+      "ticker": "NSE:20MICRONS",
+      "cutoff_date": "2009-10-30",
+      "target_date": "2009-11-06",
+      "predicted_return": 0.9963114857673645,
+      "actual_return": -0.033462015138211655,
+      "p_up": 0.43441739678382874
+    },
+    {
+      "stock_id": 2,
+      "ticker": "NSE:21STCENMGM",
+      "cutoff_date": "2019-01-29",
+      "target_date": "2019-02-04",
+      "predicted_return": -0.021848879754543304,
+      "actual_return": -0.06040270060080201,
+      "p_up": 0.25322040915489197
+    },
+    {
+      "stock_id": 3,
+      "ticker": "NSE:360ONE",
+      "cutoff_date": "2020-10-05",
+      "target_date": "2020-10-09",
+      "predicted_return": 0.25977012515068054,
+      "actual_return": -0.03589209085678176,
+      "p_up": 0.2585318684577942
+    },
+    {
+      "stock_id": 4,
+      "ticker": "NSE:3IINFOLTD",
+      "cutoff_date": "2007-01-04",
+      "target_date": "2007-01-10",
+      "predicted_return": -0.00862028542906046,
+      "actual_return": 0.004524079951107446,
+      "p_up": 0.3459615409374237
+    },
+    {
+      "stock_id": 5,
+      "ticker": "NSE:3MINDIA",
+      "cutoff_date": "2007-01-04",
+      "target_date": "2007-01-10",
+      "predicted_return": 0.22682324051856995,
+      "actual_return": -0.005598404153148566,
+      "p_up": 0.335906445980072
+    }
+  ]
+}

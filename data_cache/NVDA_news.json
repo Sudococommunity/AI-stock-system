@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Planet Labs Stock Has Risen 765% in a Year and Wall Street Is Just Now Paying Attention",
+    "publisher": "24/7 Wall St.",
+    "url": "https://247wallst.com/investing/2026/03/27/planet-labs-stock-has-risen-765-in-a-year-and-wall-street-is-just-now-paying-attention/",
+    "published_at": "2026-03-27 12:35 UTC",
+    "age_hours": 5.6,
+    "sentiment_score": 0.0,
+    "sentiment_label": "NEUTRAL"
+  },
+  {
+    "title": "8 Stocks I'd Buy if I Were Starting a Tech Portfolio From Scratch Today",
+    "publisher": "Motley Fool",
+    "url": "https://www.fool.com/investing/2026/03/27/stocks-buy-if-starting-tech-portfolio-today/",
+    "published_at": "2026-03-27 12:35 UTC",
+    "age_hours": 5.7,
+    "sentiment_score": 1.0,
+    "sentiment_label": "BULLISH"
+  },
+  {
+    "title": "Google, Meta ruling could be a Tobacco Moment for social media cases",
+    "publisher": "Yahoo Finance Video",
+    "url": "https://finance.yahoo.com/video/google-meta-ruling-could-be-a-tobacco-moment-for-social-media-cases-150424623.html",
+    "published_at": "2026-03-26 15:04 UTC",
+    "age_hours": 27.2,
+    "sentiment_score": 0.0,
+    "sentiment_label": "NEUTRAL"
+  },
+  {
+    "title": "Tech stocks today: Big Tech stocks sell off, Anthropic considers IPO as soon as Q4",
+    "publisher": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/news/live/tech-stocks-today-big-tech-stocks-sell-off-anthropic-considers-ipo-as-soon-as-q4-144220271.html",
+    "published_at": "2026-03-13 14:42 UTC",
+    "age_hours": 339.5,
+    "sentiment_score": -1.0,
+    "sentiment_label": "BEARISH"
+  }
+]

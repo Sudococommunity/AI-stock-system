@@ -1,0 +1,38 @@
+[
+  {
+    "title": "US ambassador tells EU: stop fining US tech firms or you will have no AI economy",
+    "publisher": "Investing.com",
+    "url": "https://finance.yahoo.com/sectors/technology/articles/us-ambassador-tells-eu-stop-121938982.html",
+    "published_at": "2026-03-27 12:19 UTC",
+    "age_hours": 5.9,
+    "sentiment_score": 0.0,
+    "sentiment_label": "NEUTRAL"
+  },
+  {
+    "title": "Wall Street Says Stocks Are Too Cheap to Ignore as War Rages On",
+    "publisher": "Bloomberg",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-says-stocks-too-113200464.html",
+    "published_at": "2026-03-27 11:32 UTC",
+    "age_hours": 6.7,
+    "sentiment_score": 0.0,
+    "sentiment_label": "NEUTRAL"
+  },
+  {
+    "title": "Who is the target consumer for Apple's MacBook Neo, and will they buy?",
+    "publisher": "Yahoo Finance Video",
+    "url": "https://finance.yahoo.com/video/who-is-the-target-consumer-for-apples-macbook-neo-and-will-they-buy-215215019.html",
+    "published_at": "2026-03-26 21:52 UTC",
+    "age_hours": 20.4,
+    "sentiment_score": 1.0,
+    "sentiment_label": "BULLISH"
+  },
+  {
+    "title": "Google, Meta ruling could be a Tobacco Moment for social media cases",
+    "publisher": "Yahoo Finance Video",
+    "url": "https://finance.yahoo.com/video/google-meta-ruling-could-be-a-tobacco-moment-for-social-media-cases-150424623.html",
+    "published_at": "2026-03-26 15:04 UTC",
+    "age_hours": 27.2,
+    "sentiment_score": 0.0,
+    "sentiment_label": "NEUTRAL"
+  }
+]

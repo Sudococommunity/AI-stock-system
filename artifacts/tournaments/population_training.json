@@ -1,0 +1,30 @@
+{
+  "leaderboard": [
+    {
+      "name": "candidate_01",
+      "checkpoint_path": "checkpoints/transformer_v1774683031_0.pt",
+      "seed": 1000,
+      "learning_rate_multiplier": 0.75,
+      "epochs": 1,
+      "reward_score": 0.3098362888572349,
+      "direction_accuracy": 0.3,
+      "mean_abs_error": 0.27184867443379723,
+      "grade": "D",
+      "sample_count": 10
+    }
+  ],
+  "survivors": [
+    {
+      "name": "candidate_01",
+      "checkpoint_path": "checkpoints/transformer_v1774683031_0.pt",
+      "seed": 1000,
+      "learning_rate_multiplier": 0.75,
+      "epochs": 1,
+      "reward_score": 0.3098362888572349,
+      "direction_accuracy": 0.3,
+      "mean_abs_error": 0.27184867443379723,
+      "grade": "D",
+      "sample_count": 10
+    }
+  ]
+}

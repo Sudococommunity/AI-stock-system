@@ -1,0 +1,29 @@
+[
+  {
+    "title": "BofA Maintains a Neutral Rating on Freshpet (FRPT) with an $80 Price Target",
+    "publisher": "Insider Monkey",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-maintains-neutral-rating-freshpet-113052867.html",
+    "published_at": "2026-03-27 11:30 UTC",
+    "age_hours": 6.7,
+    "sentiment_score": 0.0,
+    "sentiment_label": "NEUTRAL"
+  },
+  {
+    "title": "Amazon Refrigerant Fine Raises Questions On Compliance And Long Term Risks",
+    "publisher": "Simply Wall St.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-refrigerant-fine-raises-questions-230620254.html",
+    "published_at": "2026-03-26 23:06 UTC",
+    "age_hours": 19.1,
+    "sentiment_score": -1.0,
+    "sentiment_label": "BEARISH"
+  },
+  {
+    "title": "How Goode Foods went from family biz to viral brand",
+    "publisher": "Yahoo Finance Video",
+    "url": "https://finance.yahoo.com/video/goode-foods-went-family-biz-190028009.html",
+    "published_at": "2026-03-26 19:00 UTC",
+    "age_hours": 23.2,
+    "sentiment_score": 0.0,
+    "sentiment_label": "NEUTRAL"
+  }
+]

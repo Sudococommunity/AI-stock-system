@@ -1,0 +1,12 @@
+{
+  "browsers": [],
+  "drivers": [
+    {
+      "major_browser_version": "146",
+      "driver_name": "msedgedriver",
+      "driver_version": "146.0.3856.84",
+      "driver_ttl": 1774796447
+    }
+  ],
+  "stats": []
+}

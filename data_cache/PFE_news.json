@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Guggenheim Sees Favorable Risk-Reward for Pfizer (PFE) Ahead of Phase 3 Data",
+    "publisher": "Insider Monkey",
+    "url": "https://finance.yahoo.com/sectors/healthcare/articles/guggenheim-sees-favorable-risk-reward-011514563.html",
+    "published_at": "2026-03-27 01:15 UTC",
+    "age_hours": 17.0,
+    "sentiment_score": 0.0,
+    "sentiment_label": "NEUTRAL"
+  },
+  {
+    "title": "Why the Market Dipped But Pfizer (PFE) Gained Today",
+    "publisher": "Zacks",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-market-dipped-pfizer-pfe-214504645.html",
+    "published_at": "2026-03-26 21:45 UTC",
+    "age_hours": 20.5,
+    "sentiment_score": 1.0,
+    "sentiment_label": "BULLISH"
+  },
+  {
+    "title": "Cancer Stocks to Buy as Innovation Reshapes Global Oncology Market",
+    "publisher": "Zacks",
+    "url": "https://finance.yahoo.com/sectors/healthcare/articles/cancer-stocks-buy-innovation-reshapes-131800747.html",
+    "published_at": "2026-03-26 13:18 UTC",
+    "age_hours": 28.9,
+    "sentiment_score": 1.0,
+    "sentiment_label": "BULLISH"
+  },
+  {
+    "title": "Pfizer\u2019s Oncology And Immunology Wins Shift Focus Beyond COVID Revenues",
+    "publisher": "Simply Wall St.",
+    "url": "https://finance.yahoo.com/sectors/healthcare/articles/pfizer-oncology-immunology-wins-shift-120411057.html",
+    "published_at": "2026-03-26 12:04 UTC",
+    "age_hours": 30.2,
+    "sentiment_score": 0.0,
+    "sentiment_label": "NEUTRAL"
+  }
+]

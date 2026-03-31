@@ -1,0 +1,319 @@
+STOCK RECOMMENDER PROTOTYPE
+DOCUMENTATION
+
+========================================
+1. PROJECT OVERVIEW
+========================================
+
+This project is a machine learning prototype for:
+
+- short-term stock movement forecasting
+- personalized stock recommendation
+- Indian-market historical data ingestion
+- market regime analysis
+- future extension into stock-tip script and video generation
+
+Main technical components:
+
+- Forecasting model:
+  stock_recommender\models\time_series.py
+  StockTransformer
+
+- Recommendation models:
+  stock_recommender\models\two_tower.py
+  TwoTowerModel
+  RankingModel
+  CandidateIndex
+
+- Training:
+  stock_recommender\learning\trainer.py
+  stock_recommender\learning\population_trainer.py
+
+- Recommendation engine:
+  stock_recommender\recommendation\engine.py
+
+- Market regime logic:
+  stock_recommender\market\regime.py
+
+- Main CLI:
+  main.py
+
+
+========================================
+2. QUICK DEMO SCRIPT
+========================================
+
+If you need to present the project quickly, use this sequence.
+
+Step 1. Show GPU support
+
+Command:
+.\.venv\Scripts\python.exe -c "import torch; print(torch.__version__); print(torch.cuda.is_available()); print(torch.cuda.get_device_name(0))"
+
+What to say:
+"The project environment is GPU-enabled and PyTorch can access the NVIDIA GPU."
+
+
+Step 2. Show the project structure
+
+Command:
+Get-ChildItem
+
+What to say:
+"The repository contains data ingestion, feature engineering, training, evaluation, recommendation, and model checkpoints."
+
+
+Step 3. Show historical Indian market data
+
+Command:
+Get-ChildItem india_universe_data | Select-Object -First 10 Name
+
+What to say:
+"The model is built on historical Indian stock data stored per symbol."
+
+
+Step 4. Show checkpoints
+
+Command:
+Get-ChildItem checkpoints | Select-Object -First 10 Name,LastWriteTime
+
+What to say:
+"The system saves trained model checkpoints for evaluation and reuse."
+
+
+Step 5. Show the forecasting and recommendation files
+
+Command:
+Get-ChildItem stock_recommender\models
+
+What to say:
+"The forecasting model is implemented in time_series.py and the recommendation stack is implemented in two_tower.py."
+
+
+Step 6. Show the main CLI entry points
+
+Command:
+Get-Content main.py | Select-String "def cmd_"
+
+What to say:
+"The CLI supports ingestion, training, backtesting, recommendation, and analysis flows."
+
+
+Step 7. Explain the product vision
+
+Suggested script:
+"This project trains a forecasting and recommendation engine on Indian stock market data. It predicts short-term movement, ranks stocks based on user preference and market context, and is intended to become the intelligence layer behind automated stock-tip content or video generation."
+
+
+========================================
+3. ENVIRONMENT SETUP
+========================================
+
+Rebuild the local environment:
+
+.\scripts\rebuild_env.ps1
+
+Optional:
+
+.\scripts\rebuild_env.ps1 -InstallNodeDeps
+.\scripts\rebuild_env.ps1 -PythonExe py
+.\scripts\rebuild_env.ps1 -TorchIndexUrl https://download.pytorch.org/whl/cu128
+
+
+========================================
+4. DATABASE SETUP
+========================================
+
+The project uses PostgreSQL.
+
+Set the connection string before running commands:
+
+$env:STOCK_RECOMMENDER_DB_URL = "postgresql://postgres:postgres@localhost:5432/stock_recommender"
+
+If PostgreSQL is not running, ingestion and training commands will fail.
+
+
+========================================
+5. MAIN COMMAND REFERENCE
+========================================
+
+5.1 Seed synthetic demo data
+
+.\.venv\Scripts\python.exe main.py seed
+
+Purpose:
+- creates synthetic stocks
+- creates synthetic users
+- creates synthetic events
+
+
+5.2 Train demo recommender stack
+
+.\.venv\Scripts\python.exe main.py train
+
+Purpose:
+- trains the transformer
+- trains the recommendation towers
+- trains the ranking model
+
+
+5.3 Generate recommendations
+
+.\.venv\Scripts\python.exe main.py recommend
+
+Purpose:
+- returns stock recommendations for a demo user
+
+
+5.4 Analyze a stock
+
+.\.venv\Scripts\python.exe main.py analyze --ticker NSE:RELIANCE
+
+Purpose:
+- generates full stock analysis
+- includes forecast, risk, and narrative
+
+
+5.5 Ingest Indian market history
+
+.\.venv\Scripts\python.exe main.py ingest_india --config configs/india_local_training.json --source csv --data-dir india_universe_data --metadata india_universe_data/_metadata.json
+
+Purpose:
+- loads Indian OHLCV history into PostgreSQL
+
+
+5.6 Train forecasting population
+
+.\.venv\Scripts\python.exe main.py train_population --config configs/india_local_training.json --population-size 3 --population-epochs 2 --max-stocks 200 --max-windows 3 --top-k 1
+
+Purpose:
+- trains multiple forecasting candidates
+- compares them out-of-sample
+- keeps the best checkpoints
+
+
+5.7 Walk-forward backtest
+
+.\.venv\Scripts\python.exe main.py backtest4 --config configs/india_local_training.json --max-stocks 200 --max-windows 3
+
+Purpose:
+- evaluates transformer checkpoints on walk-forward forecasting
+
+
+5.8 Tournament evaluation
+
+.\.venv\Scripts\python.exe main.py tournament --config configs/india_local_training.json --max-stocks 200 --top-k 2
+
+Purpose:
+- compares saved checkpoints
+- ranks the strongest survivors
+
+
+5.9 Export runtime config
+
+.\.venv\Scripts\python.exe main.py export_config --output train_config.json
+
+
+========================================
+6. LOCAL TRAINING WRAPPER
+========================================
+
+Bounded local run:
+
+.\scripts\train_india_local.ps1 -MaxStocks 25 -PopulationSize 1 -PopulationEpochs 1 -MaxWindows 1
+
+Heavier run:
+
+.\scripts\train_india_local.ps1 -MaxStocks 200 -PopulationSize 3 -PopulationEpochs 2 -MaxWindows 3
+
+
+========================================
+7. WHERE THE ACTUAL MACHINE LEARNING LIVES
+========================================
+
+Main forecasting algorithm:
+
+stock_recommender\models\time_series.py
+
+Main recommendation algorithms:
+
+stock_recommender\models\two_tower.py
+
+Main training loops:
+
+stock_recommender\learning\trainer.py
+stock_recommender\learning\population_trainer.py
+
+Main recommendation orchestration:
+
+stock_recommender\recommendation\engine.py
+
+
+========================================
+8. DATA SOURCES IN THIS REPOSITORY
+========================================
+
+Primary historical training data:
+
+india_universe_data\
+
+Static/reference data:
+
+data\
+
+Notes:
+- india_universe_data contains historical OHLCV CSVs used for model training
+- data contains market lists and reference files, not a rich primary ML dataset
+
+
+========================================
+9. CURRENT F&O STATUS
+========================================
+
+F&O support exists in initial form:
+
+stock_recommender\data\fno_data.py
+stock_recommender\data\database.py
+stock_recommender\features\technical_indicators.py
+
+Current status:
+- F&O ingestion/storage exists
+- some F&O-style features exist
+- F&O is not yet fully integrated into the end-to-end forecasting and recommendation models
+
+
+========================================
+10. CURRENT LIMITATIONS
+========================================
+
+- PostgreSQL must be running externally
+- F&O integration is partial
+- NSE archive downloader is still experimental
+- some workflows are prototype-grade rather than production-grade
+- the video-generation layer is not yet implemented inside this repository
+
+
+========================================
+11. FUTURE PRODUCT DIRECTION
+========================================
+
+The long-term goal is:
+
+- market prediction
+- user-personalized stock recommendation
+- script generation
+- narrated stock-tip content
+- AI-assisted stock-tip video generation
+
+The current repository is the forecasting and recommendation core for that larger product.
+
+
+========================================
+12. RELATED FILES
+========================================
+
+README.md
+ARCHITECTURE.md
+PROJECT_SUMMARY.md
+TRAINING.md
+

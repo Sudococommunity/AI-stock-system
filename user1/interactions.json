@@ -1,0 +1,43 @@
+[
+  {"stock": "NVDA", "action": "view_long",     "duration_sec": 420, "note": "Deep-dive on AI chip thesis, Jensen Huang roadmap"},
+  {"stock": "NVDA", "action": "watchlist_add",                       "note": "Adding as top conviction play"},
+  {"stock": "NVDA", "action": "trade_buy",     "quantity": 15,       "note": "Opening long position on breakout"},
+  {"stock": "NVDA", "action": "rate",          "rating": 0.95,       "note": "Best risk/reward in semis"},
+
+  {"stock": "TSLA", "action": "view_long",     "duration_sec": 300, "note": "Checking delivery numbers and FSD timeline"},
+  {"stock": "TSLA", "action": "watchlist_add",                       "note": "Watching for dip entry"},
+  {"stock": "TSLA", "action": "rate",          "rating": 0.80,       "note": "Volatile but high upside"},
+
+  {"stock": "AMD",  "action": "view_long",     "duration_sec": 240, "note": "MI300 competing with NVDA H100"},
+  {"stock": "AMD",  "action": "watchlist_add",                       "note": "Secondary AI chip play"},
+  {"stock": "AMD",  "action": "trade_buy",     "quantity": 20,       "note": "Position opened"},
+  {"stock": "AMD",  "action": "rate",          "rating": 0.75,       "note": "Strong but second to NVDA"},
+
+  {"stock": "META", "action": "view_long",     "duration_sec": 200, "note": "Ad revenue recovery + AI spending"},
+  {"stock": "META", "action": "rate",          "rating": 0.70,       "note": "Year of efficiency paid off"},
+
+  {"stock": "AAPL", "action": "view_long",     "duration_sec": 180, "note": "Services revenue, Vision Pro"},
+  {"stock": "AAPL", "action": "watchlist_add",                       "note": "Core holding candidate"},
+
+  {"stock": "GOOGL","action": "view_long",     "duration_sec": 150, "note": "Gemini AI, cloud growth"},
+  {"stock": "GOOGL","action": "trade_buy",     "quantity": 8,        "note": "Adding AI exposure"},
+
+  {"stock": "AMZN", "action": "view_long",     "duration_sec": 120, "note": "AWS still dominant, margins expanding"},
+  {"stock": "AMZN", "action": "watchlist_add",                       "note": "Cloud play alongside NVDA"},
+
+  {"stock": "MSFT", "action": "view_long",     "duration_sec": 90,  "note": "OpenAI partnership, Copilot revenue"},
+  {"stock": "MSFT", "action": "rate",          "rating": 0.65,       "note": "Solid but priced in"},
+
+  {"stock": "NFLX", "action": "view_long",     "duration_sec": 60,  "note": "Password sharing crackdown working"},
+  {"stock": "NFLX", "action": "rate",          "rating": 0.60,       "note": "Growth recovered"},
+
+  {"stock": "JNJ",  "action": "view_short",    "duration_sec": 12,  "note": "Too slow, not my style"},
+  {"stock": "WMT",  "action": "view_short",    "duration_sec": 8,   "note": "Boring, no alpha here"},
+  {"stock": "PG",   "action": "view_short",    "duration_sec": 7,   "note": "Old economy, skip"},
+  {"stock": "KO",   "action": "view_short",    "duration_sec": 5,   "note": "0% chance I touch this"},
+  {"stock": "XOM",  "action": "view_short",    "duration_sec": 10,  "note": "Energy is last cycle"},
+
+  {"stock": "NVDA", "action": "view_long",     "duration_sec": 180, "note": "Following up after earnings beat"},
+  {"stock": "AMD",  "action": "view_long",     "duration_sec": 150, "note": "Checking relative performance to NVDA"},
+  {"stock": "TSLA", "action": "view_long",     "duration_sec": 120, "note": "Cybertruck delivery update"}
+]

@@ -1,0 +1,14 @@
+{
+  "username": "sam_investor",
+  "display_name": "Sam",
+  "persona": "Conservative Dividend & Value Investor",
+  "risk_tolerance": "conservative",
+  "capital_range": "large",
+  "investment_horizon": "long",
+  "preferred_sectors": ["Healthcare", "Consumer Staples", "Financials", "Utilities"],
+  "bio": "Long-term buy-and-hold investor. Prioritizes dividend income, capital preservation, and low volatility. Sleeps well at night regardless of market conditions.",
+  "favorite_stocks": ["JNJ", "KO", "WMT", "PG", "JPM", "VZ"],
+  "dislike_stocks": ["NVDA", "TSLA", "AMD", "NFLX", "META"],
+  "typical_hold_days": 365,
+  "max_position_pct": 8
+}
